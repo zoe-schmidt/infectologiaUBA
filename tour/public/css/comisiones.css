@@ -1,0 +1,52 @@
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  z-index:99;
+    }
+
+.contenedor-sitio{
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255,0.9);
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+    margin-top: 30px;
+    margin-bottom: 120px;
+    overflow: hidden;
+}
+
+.titulo-sitio{
+    margin-top: 10px;
+     display: block;
+    text-align: center;
+    position: relative;
+}
+
+.comisiones{
+    width: 100%;
+    margin-left: 20px;
+  margin-top: 10px;
+  z-index: 1;
+}
+
+p.titulo-comision{
+  margin-left: 10px;
+}
+
+.imagen-comision{
+  width: 100%;
+ 
+}
+
+
+@media (min-width:1024px){
+
+  .contenedor-sitio{
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+
+  .imagen-comision{
+    text-align: center;
+  }
+
+
+}

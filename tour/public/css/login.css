@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    margin-top: 12px;
+
+}
+.btn-link  {
+  display: block;
+  margin-right: 3px;
+}
+
+.card-header{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+.olvidaste{
+  margin-left: 59px;
+}
+
+label {
+  text-align: center;
+}
+
+.form-check{
+  text-align: center;
+}
+
+button{
+  margin-left: 89px;
+}
+
+.cajita-registrate{
+  margin-top:10px;
+}
+
+p{
+  margin-bottom: 0px;
+}
+
+.registrate-a{
+  margin-left: 88px;
+}
+
+p.clinicas{
+  margin-top: -25px;
+}
+
+p.ubah{
+  margin-top: -25px;
+}
+
+.contacta{
+  margin-top: 10px;
+}
+
+img.uba{
+   margin-top: 10px;
+ }
+
+@media (min-width: 1024px){
+  .contenedor-login{
+    margin-bottom: 39px;
+  }
+
+  .btn-link  {
+    display: block;
+    margin-right: 200px;
+  }
+  .form-check{
+        margin-left: -104px;
+  }
+  .olvidasste{
+    margin-left: 248px;
+  }
+  .cajita-registrate{
+        margin-left: 373px;
+        margin-top: 10px;
+  }
+  p{
+    display: contents;
+  }
+
+  #boton{
+    margin-left: 100px;
+  }
+  .olvidaste{
+        margin-left: 120px;
+  }
+  .registrate-a{
+    display: contents;
+  }
+
+  footer{
+    position: relative;
+    margin-right: 35px;
+    width: 1360px;
+    margin-left: -130px;
+  }
+
+  .titulo-footer{
+    position: absolute;
+  }
+
+  .contacta{
+    position:relative;
+    display: flex;
+    text-align: center;
+    margin-left: 500px;
+  }
+
+
+  .logo-uba{
+    position: relative;
+  }
+
+  img.uba{
+    margin-top: -43px;
+  }
+}

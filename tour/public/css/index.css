@@ -1,0 +1,175 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+
+}
+
+body{
+  width: 100%;
+}
+
+.imagen-fondo{
+  width: 100%;
+  padding-top: 15px;
+  background-image: url("../imagenes/fondo.jpg");
+ background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container{
+  height: 100vh;
+
+}
+
+
+.barra-busqueda{
+  margin-top: 10px;
+
+}
+
+.navbar{
+      padding: 0px;
+      border-radius: 15px;
+
+}
+
+.navbar-brand{
+  width: 100%;
+  text-align: center;
+  margin-right: 0px;
+}
+
+.lupita{
+  display: inline-block;
+  float: left;
+  margin-left: 15px;
+}
+
+
+.busqueda{
+  display: inline;
+  font-size: 13px;
+  margin-right: 40px;
+}
+
+
+.novedades{
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid gray;
+  border-radius: 5%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 200px;
+}
+
+.titulo-noticia h5{
+  color:#D64239;
+
+}
+
+.noticia2{
+ border-top: 1px solid black;
+ padding-top: 10px;
+
+}
+
+.categorias{
+  margin-top: 25px;
+  text-align: center;
+  overflow: hidden;
+
+
+}
+
+.categorias a{
+  color: black;
+}
+
+.categoria-cronograma{
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.categoria-bibliografia{
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.categoria-casosClinicos{
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.categoria-clases{
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.categoria-cuerpoDocente{
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.categoria-admin{
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.footer{
+  background-color: black;
+}
+
+@media (min-width:1024px){
+
+  .container{
+    position: relative;
+  }
+
+  .barra-busqueda{
+    margin-top: 50px;
+    width: 70%;
+    margin-left: 125px;
+
+  }
+
+  .novedades{
+    position: absolute;
+    display: inline-block;
+    margin-top: 5%;
+    border-radius: 0px;
+    height: 300px;
+    width:750px;
+    margin-left: 170px;
+    z-index: 1;
+  }
+
+  .busqueda p{
+        text-align: center;
+  }
+
+
+  .categorias{
+    display: inline-block;
+    position: absolute;
+    margin-top: 103px;
+    margin-left: 1000px;
+
+  }
+ /* .categorias{
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255,);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  */
+}

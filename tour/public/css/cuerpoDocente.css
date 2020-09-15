@@ -1,0 +1,45 @@
+.cuerpo-docente{
+  position: relative;
+  z-index: -1;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 15px;
+  height: 536px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  display: block;
+  margin-right: 10px;
+  text-align: center;
+}
+
+body{
+  background-color: #D6D6D6;
+}
+
+p.nombre-docente {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (min-width: 1024px){
+  .cuerpo-docente{
+    position: relative;
+    z-index: -1;
+    margin-left: 49px;
+    margin-right: 49px;
+    height: 370px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .docente2{
+    margin-left: -61px;
+}
+  }
+}

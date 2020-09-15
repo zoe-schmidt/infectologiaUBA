@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor-principal{
+    background-image: url("../imagenes/fondo.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;  
+}
+
+.transparencia{
+    background-color: rgb(255, 255, 255,0.3);
+  padding-top: 30px;
+}
+
+.titulo-escritorio{
+    display: none;
+}
+
+
+.titulo-clases{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.titulo-clases h2{ 
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    
+}
+
+section{
+   margin: 0 auto;
+   width: 90%;
+   border-radius: 5px;
+}
+
+.contenido-clases{
+    margin-top: 15%;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 0 5px black;
+
+}
+
+
+
+.article{
+    width: 100%;
+}
+
+
+.clase{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+
+
+.video{
+    position: relative;
+    margin-top: 15px;
+}
+
+.descripcion p{
+    color: black;
+    text-decoration: underline;
+}
+
+.pdf{
+    margin-top: 15px;
+}
+      
+
+.error{
+    color: red;
+}
+
+/* VERSION ESCRITORIO*/
+
+
+@media (min-width:1024px){
+
+    
+    .titulo-clases{
+        display: none;
+    }
+
+    .titulo-escritorio{
+        text-align: left;
+        display: inline-block;
+       margin: 0 auto;
+        
+        
+    }
+
+    .titulo-escritorio h2{
+        font-size: 40px;
+        text-align: center;
+        color: black;
+        
+    }
+
+    .contenido-clases{
+        background-color: rgb(255, 255, 255,0.6);
+        width: 75%;
+        margin-top: 5%;
+         overflow: hidden;
+    }
+
+
+    .clase{
+       
+       width: 80%;
+       margin-left: 10%;
+       margin-right: 10%;
+    }
+
+    .cargarClase{
+        margin-left: 12%;
+    }
+
+        /* PARA PAGINACION
+    .clase2{
+            margin-top: 1px;
+            width: 40%;
+            margin-left: 9%;
+    }
+    
+   .pdf{
+       display: inline-block;
+      
+   }
+*/
+   
+}
+
+

@@ -1,0 +1,64 @@
+section{
+  margin-top: 44px;
+    margin-bottom: 30px;
+}
+
+.ca{
+    height: 200px;
+}
+
+h3{
+  width: 170px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.n{
+  height: 431px;
+}
+
+.no{
+  margin-left: 25px;
+}
+
+@media (min-width:1024px){
+
+.cargarNovedades{
+  margin-bottom: 50px;
+}
+
+h3{
+  text-align: center;
+  margin-top: 50px;
+}
+
+form{
+  width:70%;
+  margin-left: 600px;
+}
+
+#biblio{
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+#crono{
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+#cuerpo{
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.cargarCasosClinicos{
+  height: 370;
+}
+
+#c{
+  text-align: center;
+  margin-top: 50px;
+}
+
+}

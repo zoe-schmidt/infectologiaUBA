@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+  }
+
+    /*HEADER EN MOBILE*/
+  header{
+      background-color:white;
+      opacity: 0.8;
+      overflow: hidden;
+      width: 100%;
+      box-sizing: border-box;
+  }
+
+ .titulo-principal-mobile{
+     float: left;
+     width: 62%;
+     padding-top: 5px;
+     padding-left: 5px;
+ }
+
+ #letra-1{
+   color:black;
+ }
+
+ #letra-2{
+   color:black;
+ }
+
+ .titulo-principal-escritorio{
+     display:none;
+ }
+
+
+  .titulo-principal-mobile h4{
+      text-align: center;
+      font-family:  'Roboto', sans-serif;
+      color: white;
+  }
+
+  #letra-1{
+      font-size: 18px;
+      margin-bottom: 0px;
+  }
+
+  #letra-2{
+      font-size: 12px;
+      margin-bottom: 0px;
+  }
+
+  .titulo-principal-mobile a{
+      text-decoration: none;
+  }
+
+
+  .imagen-uba, .imagen-clinicas{
+      display: none;
+  }
+
+
+ .menu-mobile{
+   float: right;
+   position: relative;
+   padding-top: 20px;
+   padding-right: 20px;
+   width: 10%;
+
+ }
+
+
+
+ .fixed-top{
+     position: relative;;
+     float: right;
+ }
+
+.listado-mobile{
+     padding-bottom: 5px;
+     text-align: center;
+     list-style-type: square;
+
+}
+
+
+ .listado-mobile li a{
+     text-decoration: none;
+     color: white;
+
+ }
+
+ .text-muted{
+    color:white!important;
+
+ }
+
+ .usuario-mobile{
+     border-top: 1px solid white;
+    margin-top: 10px;
+    padding-top: 5px;
+ }
+
+ #menu-escritorio{
+     display: none;
+ }
+
+ .usuario-escritorio{
+     display: none;
+ }
+
+ /* HEADER EN ESCRITORIO*/
+
+ @media (min-width:1024px){
+
+    .menu-mobile{
+        display:none;
+
+    }
+
+    .titulo-principal-mobile{
+        display: none;
+    }
+
+    .titulo-principal-escritorio{
+        display: inline-block;
+        margin-left: 22%;
+        margin-top: 10px;
+        margin-bottom: -25;
+    }
+
+    .titulo-principal-escritorio h4{
+        text-align: center;
+        color: black;
+    }
+
+    .titulo-principal-escritorio a{
+        text-decoration: none;
+    }
+
+
+
+    .imagen-uba{
+        float: left;
+        margin-top:5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        display: initial;
+    }
+
+
+    .imagen-clinicas{
+        display: block;
+        float: right;
+        margin-right: 30px;
+        margin-top: 3px;
+    }
+
+    .usuario-escritorio{
+        display: initial;
+       float: right;
+       margin-top: 30px;
+       margin-right:70px;
+       box-sizing: border-box;
+
+
+    }
+
+    /* BOTON DE USUARIO*/
+
+    button.btn.btn-primary{
+        background-color:  rgb(14, 13, 13);
+        color:rgba(255, 255, 255, 0.596) ;
+        border-color: rgba(255, 255, 255, 0.596);
+        margin-left: 85px;
+    }
+
+    .card.card-body{
+        background-color: rgb(14, 13, 13);
+        margin: 5px;
+        padding: 3px;
+        padding-bottom: 0px;
+    }
+
+    .card.card-body ul li{
+        padding-top:3px;
+        margin: 0 auto;
+        color: black;
+    }
+
+
+
+    #sesion{
+        margin-left:25px
+    }
+
+    /*BARRA DE NAVEGACION*/
+
+    #sec{
+      color: black;
+    }
+
+    #com{
+      color:black;
+    }
+    #menu-escritorio{
+          position: absolute;
+          display: initial;
+         left: 95px;
+         padding-top:5px;
+          color: black;
+          margin-top: 33px;
+          margin-left: 25px;
+        }
+
+    .navbar-light .navbar-nav .nav-link {
+        color:
+    }
+
+    .dropdown-menu{
+        background-color: black;
+        margin-top: 25px;
+        z-index: 10;
+    }
+
+    .dropdown-menu show {
+      z-index:99;
+        }
+
+    #menu-escritorio .dropdown-menu .dropdown-item a{
+           color: white;
+        }
+
+    #crono{
+      color: white;
+    }
+
+    #clases{
+      color: white;
+    }
+
+    #casos{
+      color: white;
+    }
+    #cuerpo{
+      color: white;
+    }
+    #biblio{
+      color: white;
+    }
+    #sitio{
+      color: white;
+    }
+    #comi{
+      color: white;
+    }
+    .dropdown-menu a:hover{
+       background-color: rgb(31, 29, 29);
+    }
+
+    .card.card-body li a{
+        font-weight: lighter;
+    }
+
+    }
+
+
+
+}

@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    width: 100%;
+}
+
+header{
+    margin-bottom: 50px;
+}
+
+.contenedor-sitio{
+    width: 90%;
+    margin: 0 auto;
+    background-color:rgb(255, 255, 255,0.9);
+    border:  1px solid black;
+     box-shadow:  0 0 5px black;
+     margin-bottom: 15px;
+}
+
+.titulo-sitio{
+    margin-top: 15px;
+}
+
+
+.titulo-sitio h2{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.listado-sitio{
+    text-align: center;
+}
+
+.listado-sitio li{
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.listado-sitio a{
+   color: black;
+
+}
+
+/* VERSIÓN ESCRIORIO */
+
+
+@media (min-width:1024px){
+    .contenedor-sitio{
+        width: 90%;
+        height: 372px;
+    margin-bottom: 30px;
+    }
+
+
+    .titulo-sitio h2{
+        font-size: 35px;
+    }
+
+    .listado-sitio{
+        margin-top: 15px;
+
+    }
+
+
+    .listado-sitio li{
+       padding-bottom: 10px ;
+       text-align: center;
+
+    }
+
+}

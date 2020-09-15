@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: black;
+}
+
+
+body{
+    width: 100%;
+}
+
+header{
+    margin-bottom: 50px;
+}
+
+.contenedor-casosClinicos{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    background-color:rgb(255, 255, 255,0.9);
+    border:  1px solid black;
+    box-shadow: 0 0 5px black;
+   margin-bottom: 50px;
+}
+
+.titulo-casosClinicos{
+    margin-top: 15px;
+}
+
+
+.titulo-casosClinicos h2{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.contenido-casosClinicos{
+    text-align: center;
+
+}
+
+
+
+/* VERSIÓN ESCRIORIO */
+
+
+@media (min-width:1024px){
+
+    .contenedor-casosClinicos{
+     width: 90%;
+        box-shadow: 0 0 30px #fff;
+       box-shadow: 0 0 5px black;
+      margin-bottom: 150px;
+
+    }
+
+
+    .titulo-casosClinicos h2{
+        font-size: 35px;
+    }
+
+
+
+   
+}

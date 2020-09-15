@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    width: 100%;
+}
+
+header{
+    margin-bottom: 50px;
+}
+
+
+.titulo-bibliografia{
+    margin-top: 15px;
+}
+
+.contenedor-bibliografia{
+  background-color: white;
+  opacity: 0.8;
+  width: 200px;
+  margin-left: 89px;
+  height: 300px;
+  margin-bottom: 20px;
+  display: block;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.titulo-bibliografia h2{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.listado-bibliografia{
+    text-align: center;
+}
+
+.listado-bibliografia li{
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.listado-bibliografia a{
+   color: black;
+
+}
+
+/* VERSIÓN ESCRIORIO */
+
+
+@media (min-width:1024px){
+    .contenedor-bibliografia{
+      background-color: white;
+      opacity: 0.8;
+      width: 1200px;
+      margin-left: 100px;
+      height: 370px;
+      margin-bottom: 30px;
+    }
+
+
+    .titulo-bibliografia h2{
+        font-size: 35px;
+    }
+
+    .listado-bibliografia{
+        margin-top: 15px;
+
+    }
+
+
+    .listado-bibliografia li{
+       padding-bottom: 10px ;
+       text-align: center;
+
+    }
+
+}

@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+
+};
+
+body{
+    width: 100%;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.encabezados{
+    display: none;
+}
+.listado{
+    overflow: hidden;
+}
+
+.nombre{
+    text-align: center;
+}
+
+
+.boton{
+    display: block;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+@media (min-width:1024px){
+
+    .titulo{
+        margin-top: 15px;
+    }
+
+    .claseNueva{
+        margin-top: 5px;
+        margin-left: 25px;
+        margin-bottom: 20px;
+    }
+
+    .encabezados{
+        display: initial;
+    }
+
+    .encabezados ul{
+        width: 100%;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border-top: 1px solid #dee2e6;
+    }
+
+    .encabezados ul li{
+        font-weight: bold;
+    }
+  
+    .listado ul{   
+        width: 100%;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border-top: 1px solid #dee2e6;
+        
+    }
+   .listado ul li{
+      float: left;
+    }
+
+    
+   .nombre{
+       padding-top: 26%;
+   }
+
+   .botones{
+       padding-top: 3%;
+   }
+}

@@ -1,0 +1,30 @@
+.container {
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.form-group.row.mb-0{
+  margin-left: 62px;
+}
+
+button .btn btn-primary{
+  margin-left: 75px;
+}
+
+.card-header{
+  text-align: center;
+}
+
+@media (min-width: 768px){
+  .form-group.row.mb-0{
+    margin-left: 90px;}
+}
+@media (min-width: 1024px){
+.registrate{
+      margin-left: 160px;
+}
+
+.card-header{
+  text-align: center;
+}
+}

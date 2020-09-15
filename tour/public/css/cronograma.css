@@ -1,0 +1,95 @@
+* {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: black;
+
+}
+
+
+
+.transparencia{
+    background-color: rgb(255, 255, 255,0.3);
+    padding-top:50px;
+}
+
+
+section.contenedor-cronograma{
+    background-image: url("../imagenes/fondo.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+    padding-bottom: 15px;
+
+}
+
+
+
+.titulo-cronograma{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.titulo-cronograma h2{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    color:black;
+   font-variant-caps: all-small-caps;
+}
+
+.caja-cronograma{
+    border-radius:1%;
+    background-color: rgb(255, 255, 255,0.3);
+    width: 80%;
+    margin: 0 auto;
+    box-shadow:  0 0 5px black;
+}
+
+.imagen-cronograma{
+    width:90%;
+    margin: 0 auto;
+    top: left;
+    margin-bottom: 25px;
+}
+
+.imagen-cronograma img{
+    width: 100%;
+
+};
+
+
+/* VERSION ESCRITORIO*/
+
+
+@media (min-width:1024px){
+
+ section.contenedor-cronograma{
+    overflow: hidden;
+  }
+
+ .titulo-cronograma h2{
+    font-size: 50px;
+ }
+
+ .imagen-cronograma{
+     width: 80%;
+     margin: 0 auto;
+ }
+ .imagen-cronograma img{
+     width: 70%;
+     margin-left: 15%;
+ }
+
+ .caja-cronograma{
+    background-color: rgb(255, 255, 255,0.3);
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+
+}
